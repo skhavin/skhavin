@@ -11,7 +11,7 @@
 
 <p>
   <em>
-    I am a 2nd Year undergraduate from <a href="https://www.iitm.ac.in/"> <b>Indian Institute Of Technology</b>, Madras</a>.  
+    I am a 2nd Year undergraduate from <a href="https://www.iitm.ac.in/"> <b>Sathyabama University</b>, Chennai</a>.  
     A budding <b>Data Scientist</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="30px"> and a <b>NLP Research    Enthusiast,</b>&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif" width="36px">  who is <b>obsessed</b>
     with the idea of <b>helping others and making impact</b> and wants <b>good friends</b> to 
     <b>grow</b> <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Rocket.gif" width="18px">and 
