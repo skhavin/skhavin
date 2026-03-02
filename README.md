@@ -1,16 +1,16 @@
 <div align="center">
-  <img height="150" src="https://camo.githubusercontent.com/62da68eb62b1e5f175f7d1f0191dd89a653d7908feb22d37d4a0ab07365d6791/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966"/>
+<img width="1919" height="670" alt="image" src="https://github.com/user-attachments/assets/0df4bed8-e225-47e0-bb5e-0879a4b823cb" />
+
+# S Khavin
+
+### 🧠 AI Researcher • NLP Engineer • Systems Builder
+
+<p>
+Building intelligent systems at the intersection of  
+<b>Research · Artificial Intelligence · Scalable Infrastructure</b>
+</p>
+
 </div>
-
-# 👨‍💻 S Khavin
-### 🧠 Student • NLP Researcher • AI Systems Builder • Open Source Contributor
-
-<div align="center">
-
-🚀 Building intelligent systems at the intersection of **AI, Research, and Scalable Infrastructure**
-
-</div>
-
 ---
 
 ## 🎯 Current Focus
