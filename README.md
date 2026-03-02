@@ -15,7 +15,7 @@ Building intelligent systems at the intersection of
 
 ## 🎯 Current Focus
 
-- 🔭 Working on **Trinetra — Multi-Agent AI Research System**
+- 🔭 Working on **Trinetra — Novel video understanding system**
 - 🌍 Studying & contributing to **OG CLEWS + MUIO integrations (UN Open Source Ecosystem)**
 - 🧠 Researching **Multi-Agent AI, RAG Systems & Computational Intelligence**
 - 🤝 Preparing for **Google Summer of Code (GSoC)**
@@ -220,19 +220,13 @@ Docker • Git • Prometheus • Grafana
 - 📝 Web Development for University Clubs: Pod Sathyabama, GDSC Sathyabama
 - 🌟 Generative AI NanoDegree (Scholarship) - Udacity and Bertelsmann (Ongoing)
 
-## 🎯 2024 Goals
-- 🚀 Contribute to more open source NLP and AI projects
-- 📚 Master advanced NLP techniques and MLOps
-- 🌟 Secure internships in NLP research or AI development
-- 📝 Publish articles on Medium about AI and NLP insights
-
 ---
 
 ## 🌐 Let's Connect & Collaborate
 <div align="center">
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-khavin33)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/skxdev007)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://skxdev007.github.io) <!-- Assuming GitHub Pages as portfolio; update if different -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://007k.framer.ai) <!-- Assuming GitHub Pages as portfolio; update if different -->
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@skxdev007) <!-- Assuming username; update if different -->
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
 ### 📱 Social Presence
