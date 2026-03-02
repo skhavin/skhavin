@@ -123,26 +123,6 @@ Udacity × Bertelsmann
 - 💻 Contributor — GirlScript Summer of Code
 - 🧠 Data Science Co-Lead — Omdena
 
----
-
-## 🛠️ Tech Stack
-
-### 💻 Languages
-Python • Java • C • SQL • HTML • CSS
-
-### 🤖 AI & ML
-LangChain • LangGraph • RAG • PyTorch • Pandas • FastAPI • Streamlit
-
-### ⚙️ Systems & Backend
-Django • Kubernetes • Redis • Celery • PostgreSQL • REST APIs
-
-### 📊 Visualization
-Tableau • Matplotlib • Seaborn • Flourish
-
-### ☁️ Tools
-Docker • Git • Prometheus • Grafana
-
----
 
 ## 📊 GitHub Dashboard
 
