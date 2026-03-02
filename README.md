@@ -208,5 +208,3 @@ Udacity × Bertelsmann
 ---
 
 
-
-# Make the readme more spacious and with better and readable layouts
