@@ -3,14 +3,15 @@
 
 # S Khavin
 
-### 🧠 AI Researcher • NLP Engineer • Systems Builder
+### 🧠 Student • AI Researcher • NLP Engineer • Systems Builder
 
 <p>
-Building intelligent systems at the intersection of  
-<b>Research · Artificial Intelligence · Scalable Infrastructure</b>
+Building intelligent, production grade systems at the intersection of  
+<b>AI Research · Artificial Intelligence · Scalable Infrastructure</b>
 </p>
 
 </div>
+
 ---
 
 ## 🎯 Current Focus
@@ -93,7 +94,7 @@ Udacity × Bertelsmann
 
 ---
 
-### 🧬 Sharingan-Core (In Development)
+### 🧬 Trinetra (In Development)
 
 - Python library enabling LLMs to understand videos in real time
 - OpenCV-based video intelligence processing
@@ -208,17 +209,6 @@ Docker • Git • Prometheus • Grafana
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-
-
----
-
-## 🎓 Certifications & Achievements
-- 🏆 Udacity Next Gen Tech Booster Scholarship: One of 500 students out of 17,000 globally to receive exclusive scholarship
-- 📜 AlgoUniversity Technology Fellowship (ATF Accelerator Program): Qualified as part of the top 5% of 20,000 applicants nationwide
-- 📈 National Entrepreneurship Challenge (E-CELL IIT Bombay): 5th place nationwide for developing an innovative idea for a Unified Health Interface (UPI for Healthcare in India)
-- 📊 Data Science Applied Lab - World Quant University
-- 📝 Web Development for University Clubs: Pod Sathyabama, GDSC Sathyabama
-- 🌟 Generative AI NanoDegree (Scholarship) - Udacity and Bertelsmann (Ongoing)
 
 ---
 
