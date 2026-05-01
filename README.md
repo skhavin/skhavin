@@ -17,8 +17,6 @@ Building intelligent, production grade systems at the intersection of
 
 ## 🎯 Current Focus
 
-- 🔭 Working on **Trinetra — Novel video understanding system**
-- 🌍 Studying & contributing to **OG CLEWS + MUIO integrations (UN Open Source Ecosystem)**
 - 🧠 Researching **Multi-Agent AI, RAG Systems & Computational Intelligence**
 - 🤝 Preparing for **Open source contributions**
 - 💬 Ask me about: **LLMs, LangGraph, RAG, FastAPI, AI Systems Design**
@@ -92,14 +90,6 @@ Udacity × Bertelsmann
 - FastAPI + Redis + WebSockets backend
 - Flutter app with live maps
 - Reduced missed commutes by **95%**
-
----
-
-### 🧬 Trinetra (In Development)
-
-- Python library enabling LLMs to understand videos in real time
-- OpenCV-based video intelligence processing
-- Designed for multimodal AI systems
 
 ---
 
