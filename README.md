@@ -1,143 +1,102 @@
 <div align="center">
-  
-<img width="1919" height="670" alt="image" src="https://github.com/user-attachments/assets/0df4bed8-e225-47e0-bb5e-0879a4b823cb" />
 
-# S Khavin
+<!-- ================= PPEditorialNew VECTOR HEADER ================= -->
+<a href="https://skhavin.github.io" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/skhavin/skhavin.github.io/main/public/assets/dossier-header.svg" width="840" alt="S. Khavin — Classified Research Dossier" />
+</a>
 
-### 🧠 Student • AI Researcher • NLP Engineer • Systems Builder
+<br/>
 
-<p>
-Building intelligent, production grade systems at the intersection of  
-<b>AI Research · Artificial Intelligence · Scalable Infrastructure</b>
-</p>
+[![Website](https://img.shields.io/badge/WEBSITE-skhavin.github.io-52c41a?style=for-the-badge&logo=google-chrome&logoColor=white)](https://skhavin.github.io)
+[![OpenReview](https://img.shields.io/badge/OpenReview-S_Khavin-8C1515?style=for-the-badge&logo=openreview&logoColor=white)](https://openreview.net/profile?id=~S_Khavin1)
+[![Zenodo](https://img.shields.io/badge/Zenodo-Research_Archive-024dad?style=for-the-badge&logo=zenodo&logoColor=white)](https://zenodo.org/records/22082191)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-S_Khavin-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/s-khavin33)
+[![Email](https://img.shields.io/badge/Email-academic.skhavin%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
 
-</div>
+<br/><br/>
 
----
+<!-- ================= SKEUOMORPHIC COCKPIT TERMINAL SCREEN ================= -->
+<a href="https://skhavin.github.io" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/skhavin/skhavin.github.io/main/public/assets/dossier-terminal.svg" width="840" alt="S Khavin Classified Dossier Terminal Screen — Click to Open Mainframe" />
+</a>
 
-## 🎯 Current Focus
-
-- 🧠 Researching **Multi-Agent AI, RAG Systems & Computational Intelligence**
-- 🤝 Preparing for **Open source contributions**
-- 💬 Ask me about: **LLMs, LangGraph, RAG, FastAPI, AI Systems Design**
-
----
-
-## 🎓 Education
-
-**BE Computer Science Engineering**  
-Sathyabama Institute of Science and Technology (2023–2027)
-
-**Generative AI Nanodegree (Scholarship)**  
-Udacity × Bertelsmann
-
----
-
-## 💼 Professional Experience
-
-### 💻 SWE Co-Op Intern — AlgoUniversity (YC-backed)
-**Jun 2025 – Aug 2025**
-
-- Built a **cloud-native Online Judge platform** using Django + Next.js
-- Developed Kubernetes-based **multi-language execution engine**
-- Secure sandboxing with resource isolation & RBAC
-- Designed microservices with REST APIs & JWT authentication
-- Implemented autoscaling + observability (Prometheus & Grafana)
-- Supported **1M+ daily submissions**
-- Achieved **<700ms API latency**
-
----
-
-### 📊 Business Analytics Intern — Business.io (IIT Madras)
-**Feb 2025 – Jul 2025**
-
-- Selected among 100+ applicants for HeroMotoCorp research project
-- Performed market & consumer behavior analysis
-- Built Tableau dashboards for strategic insights
-- Delivered actionable business intelligence reports
-
----
-
-## 🚀 Featured Projects
-
----
-
-### 🧠 Trinetra — Multi-Agent AI Research System
-🔗 https://skxdev007.github.io/sharingan/
-
-- Multi-agent AI framework inspired by research architectures
-- Intelligent reasoning pipelines using LLM orchestration
-- Dynamic context-aware query resolution
-- Designed for scalable research experimentation
-
-**Tech:** LangGraph • FastAPI • Python • Multi-Agent Systems • RAG
-
----
-
-### 🧩 Marin — AI Mental Health Assistant
-🏆 Google Gen AI Exchange Hackathon Winner (Top Project Nationwide)
-
-- Multi-agent RAG system delivering evidence-based mental health support
-- Emotion detection + knowledge-grounded reasoning
-- Built using LangChain, LangGraph & Pinecone
-- Reduced latency from **5s → 0.8s**
-
----
-
-### 🚌 SIST Transit+ — Real-Time Bus Tracking Platform
-
-- Real-time tracking for **1500+ students & 300+ buses**
-- FastAPI + Redis + WebSockets backend
-- Flutter app with live maps
-- Reduced missed commutes by **95%**
-
----
-
-## 🧠 Research & Open Source
-
-- 📄 Working on research paper systems architecture (**Trinetra**)
-- 🌐 Exploring **UN Open Source integrations**
-  - OG CLEWS
-  - MUIO ecosystem
-- 🤖 Multi-agent AI & Retrieval-Augmented Generation research
-- 🧪 NLP & Computational Neuroscience enthusiast
-
----
-
-## 🏆 Achievements
-
-- 🥇 Google Gen AI Exchange Hackathon — Nationwide Winner
-- 🎓 Udacity Next Gen Tech Booster Scholar (Top 500 / 17,000 globally)
-- 🚀 AlgoUniversity Technology Fellowship — Top 5% of 20,000 applicants
-- 🏅 National Entrepreneurship Challenge — IIT Bombay (5th place nationwide)
-- 💻 Contributor — GirlScript Summer of Code
-- 🧠 Data Science Co-Lead — Omdena
-
-
-## 📊 GitHub Dashboard
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=skhavin&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=skhavin&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
-
----
-
-### 🔥 Contribution Streak
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=skhavin&theme=tokyonight&hide_border=true"/>
+  <sub>💡 <i>Click anywhere on the terminal screen above to enter the live classified mainframe at <a href="https://skhavin.github.io">skhavin.github.io</a></i></sub>
 </p>
 
+</div>
+
 ---
 
-## 🌐 Connect With Me
+### 🛰️ Executive Briefing
+
+Independent researcher working at the intersection of **Mechanistic Interpretability**, **Computational Geometry**, and **Efficient AI Inference**. My work focuses on causal, neuroscience-inspired methods to dissect and accelerate transformer models — isolating sparse subcircuits, mapping representational geometries in residual streams, and designing constant-time memory and retrieval mechanisms.
+
+* 🔬 **Research Core:** Causal Patching, Direct Logit Attribution, Residual Stream Geometry, Dynamic Routing, CKA & DTW
+* ⚡ **Systems & Efficiency:** Proactive KV-Cache Eviction ($O(1)$ Attention), Topological Video Event Graphs (Trinetra)
+* 🎓 **Academic Foundation:** Pursuing dual degrees in Computer Science from **Sathyabama Institute of Science and Technology** and **Udacity**
+
+---
+
+### 📑 Publications & Preprints
+
+| # | Manuscript Title | Focus & Contribution | Venue & Artifacts |
+|---|---|---|---|
+| **I** | **[K Heads is All You Need](https://openreview.net/forum?id=eFLz0H38En)**<br><sub>*Task-Dependent Circuit Granularity and Zero-Training Routing in LLMs*</sub> | Proves retrieval in Qwen2.5 is sustained by a 6-head causal circuit. Builds a zero-training geometric router with 100% OOD precision on NVIDIA RULER. | [![OpenReview](https://img.shields.io/badge/OpenReview-Preprint-8C1515?style=flat-square)](https://openreview.net/forum?id=eFLz0H38En) [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/22082191) |
+| **II** | **[The Shape of Computation](https://zenodo.org/records/21738187)**<br><sub>*Language Models Build Universal, Conserved Task Geometries That Are Causally Inert*</sub> | Discovers trunk-and-branch geometry in residual streams across models via CKA-aligned DTW, proving representation maps are epiphenomenal byproducts. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738187) [![Field Note](https://img.shields.io/badge/Site-Field_Note-black?style=flat-square)](https://skhavin.github.io/blog/trunk-and-branch-theory-of-computation) |
+| **III** | **[Necessary But Not Sufficient](https://openreview.net/forum?id=fW2yC109Zq)**<br><sub>*Convergent Computational Geometry in the Transformer Residual Stream*</sub> | Disproves prompt-invariant head taxonomies; discovers conserved relational task geometries across Qwen, Llama, and Phi architectures. | [![OpenReview](https://img.shields.io/badge/OpenReview-Preprint-8C1515?style=flat-square)](https://openreview.net/forum?id=fW2yC109Zq) [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738188) |
+| **IV** | **[HeadGenome](https://zenodo.org/records/21738189)**<br><sub>*A Causal Atlas of 1,568 Attention Heads Across Four Architectures*</sub> | Exhaustive causal knockout mapping of 1,568 heads, uncovering extreme specialization in induction and prefix-tracking modules. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738189) |
+| **V** | **[O(1) Decode Step Attention](https://zenodo.org/records/21738190)**<br><sub>*Constant-Time Inference via Geometric KV Eviction*</sub> | Geometry-guided proactive KV-cache pruning mechanism that keeps decode step latency strictly $O(1)$ without quality degradation. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738190) |
+| **VI** | **[Trinetra](https://zenodo.org/records/21738191)**<br><sub>*Temporal Event Graph Architecture for Linear Video Ingest and Constant Query Time*</sub> | $O(N)$ video ingestion with $O(1)$ temporal query engine, replacing dense frame attention with topological event graphs. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738191) |
+
+---
+
+### 🎖️ Distinctions, Fellowships & Industry Experience
+
+* 🚀 **SWE Co-Op Intern** — **AlgoUniversity (YC-backed)**: Engineered high-throughput data and AI pipelines with full-stack architecture.
+* 🏆 **Team Lead @ Google GenAI Hackathon** — **Top Project Nationwide**: Led team building generative AI solutions for automated workflows.
+* 🌟 **AlgoUniversity Technology Fellowship (ATF Accelerator)** — **Top 5% of 20,000 applicants nationwide**: Qualified after technical interview rounds with mentorship from experts at Codeforces, Google, and Microsoft.
+* 🎓 **Udacity NextGen Tech Booster Scholar** — **Selected 1 of 500 students out of 17,000 globally** for advanced AI and machine learning scholarship.
+* 💼 **Business Analytics Intern** — Market Research Project (HMC), facilitated by Business.io (IIT Madras).
+* 🏛️ **National Entrepreneurship Challenge (NEC)** — **IIT Bombay**: 5th place nationwide out of 600+ colleges across India.
+* 💻 **Open Source Contributor** — **GirlScript Summer of Code (GSSoC)**: Contributed to open-source developer tooling and ML frameworks.
+* 🧠 **Data Science Co-Lead** — **Omdena**: Collaborated on international AI-for-good initiatives and data modeling tasks.
+
+---
+
+### 🛠️ Technical Stack & Methods
+
+```text
+[RESEARCH & INTERPRETABILITY]
+PyTorch • TransformerLens • Causal Scrubbing • Direct Logit Attribution • CKA & DTW • FAISS
+
+[MODELS & SCALING]
+Qwen2.5 • LLaMA-3.2 • Gemma-2 • Phi-3.5 • vLLM • Triton • HuggingFace Transformers
+
+[LANGUAGES & BACKEND]
+Python • C / C++ • Java • SQL • TypeScript • JavaScript • Django • FastAPI • PostgreSQL
+
+[FRONTEND & FRAMEWORKS]
+Next.js • Astro • React • TailwindCSS • Streamlit • LangChain • LangGraph • Tavily
+```
+
+---
+
+### 📊 GitHub Activity & Mission Telemetry
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-S%20Khavin-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/s-khavin33/)
-[![GitHub](https://img.shields.io/badge/GitHub-skxdev007-black?style=for-the-badge&logo=github)](https://github.com/skxdev007)
-[![Email](https://img.shields.io/badge/Email-academic.skhavin@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:academic.skhavin@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-orange?style=for-the-badge&logo=google-chrome)](https://skhavindev.framer.website/)
+<!-- Skeuomorphic Mission Telemetry Deck -->
+<a href="https://github.com/skhavin" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/skhavin/skhavin.github.io/main/public/assets/cockpit-telemetry.svg" width="840" alt="Skeuomorphic Mission Telemetry Deck" />
+</a>
+
+<br/><br/>
+
+<!-- Verified Working Streak Stats -->
+<a href="https://github.com/skhavin" target="_blank" rel="noopener noreferrer">
+  <img src="https://streak-stats.demolab.com?user=skhavin&theme=tokyonight&hide_border=true&background=0a0a0c&ring=52c41a&fire=52c41a&currStreakLabel=52c41a&currStreakNum=ffffff&sideNums=ffffff&sideLabels=c9d1d9" alt="GitHub Streak Stats" />
+</a>
 
 </div>
 
@@ -145,56 +104,13 @@ Udacity × Bertelsmann
 
 <div align="center">
 
-### 🚀 *"Building intelligent systems that understand context, reasoning, and humans."*
+### 🌐 Secure Line & Coordinates
 
-⭐ Feel free to explore and star repositories!
+[![Official Website](https://img.shields.io/badge/VISIT-OFFICIAL_WEBSITE-111111?style=for-the-badge&logo=astro&logoColor=52c41a)](https://skhavin.github.io)
+[![LinkedIn](https://img.shields.io/badge/CONNECT-LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/s-khavin33)
+[![GitHub](https://img.shields.io/badge/FOLLOW-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/skhavin)
+[![Email](https://img.shields.io/badge/SECURE_EMAIL-ACADEMIC.SKHAVIN-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
 
-</div>
-
-### 💻 Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### 🚀 Data Science & Machine Learning
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3B00?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=for-the-badge&logo=langgraph&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FE4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Tavily](https://img.shields.io/badge/Tavily-000000?style=for-the-badge&logo=tavily&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3B75AF?style=for-the-badge&logo=seaborn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-
-### ☁️ Cloud & Tools
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Flourish](https://img.shields.io/badge/Flourish-000000?style=for-the-badge&logo=flourish&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-
----
-
-## 🌐 Let's Connect & Collaborate
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/s-khavin33)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/skhavin)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://007k.framer.ai) 
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@skxdev007) 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
-### 📱 Social Presence
-[![GitHub followers](https://img.shields.io/github/followers/skxdev007?style=social)](https://github.com/skxdev007)
+<sub>File No: `007-AI-NX` • Clearance: `Level 6` • Encryption: `SHA-256` • © S Khavin</sub>
 
 </div>
----
-
-

@@ -1,0 +1,77 @@
+name: Autonomous Contribution Heartbeat
+
+on:
+  schedule:
+    # Runs at 20:00 UTC (01:30 AM IST) daily
+    - cron: '0 20 * * *'
+    # Fallback check at 23:00 UTC
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force run even if commits exist today'
+        required: false
+        default: 'false'
+        type: boolean
+      commit_count:
+        description: 'Override commit count (leave 0 for random 7-15)'
+        required: false
+        default: 0
+        type: number
+
+permissions:
+  contents: write
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git Author
+        run: |
+          git config --global user.name "skxdev007"
+          git config --global user.email "academic.skhavin@gmail.com"
+
+      - name: Check Activity & Generate Autonomous Commits
+        run: |
+          TODAY=$(date -u +'%Y-%m-%d')
+          echo "Current UTC date: $TODAY"
+          
+          # Count user's commits created today
+          COMMITS_TODAY=$(git log --since="$TODAY 00:00:00" --author="skxdev007\|skhavin\|academic.skhavin" --oneline | wc -l)
+          echo "Author commits recorded today: $COMMITS_TODAY"
+          
+          FORCE="${{ github.event.inputs.force }}"
+          OVERRIDE_COUNT="${{ github.event.inputs.commit_count }}"
+          
+          if [ "$COMMITS_TODAY" -gt 0 ] && [ "$FORCE" != "true" ]; then
+            echo "Activity detected today ($COMMITS_TODAY commits). No heartbeat required."
+            exit 0
+          fi
+          
+          # Determine commit count (random between 7 and 15, or override)
+          if [ -n "$OVERRIDE_COUNT" ] && [ "$OVERRIDE_COUNT" -gt 0 ]; then
+            TOTAL_COMMITS=$OVERRIDE_COUNT
+          else
+            TOTAL_COMMITS=$((7 + RANDOM % 9))
+          fi
+          
+          echo "Generating $TOTAL_COMMITS autonomous activity commits..."
+          
+          for i in $(seq 1 $TOTAL_COMMITS); do
+            TIMESTAMP=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
+            HEX=$(openssl rand -hex 4)
+            echo "[$TIMESTAMP] Telemetry heartbeat event #$i/$TOTAL_COMMITS [id:$HEX] -> Status: NOMINAL" >> .github/activity-feed.log
+            
+            git add .github/activity-feed.log
+            git commit -m "chore(activity): telemetry heartbeat sync [${i}/${TOTAL_COMMITS}] - $(date -u +'%H:%M:%S')"
+            sleep 1
+          done
+          
+          echo "Pushing commits to remote..."
+          git push origin main
