@@ -1,18 +1,20 @@
 <div align="center">
 
-<!-- ================= 007 GUNBARREL SPIRAL HEADER ================= -->
+# S. KHAVIN
+### `CLASSIFIED RESEARCH DOSSIER // LEVEL-6 CLEARANCE`
+
 <a href="https://skhavin.github.io" target="_blank" rel="noopener noreferrer">
   <img src="./assets/header-readme-github.png" width="840" alt="S. Khavin 007 — Classified Research Dossier" />
 </a>
 
-<br/>
+<br/><br/>
 
 <!-- ================= B&W STEALTH BADGES ================= -->
 [![Website](https://img.shields.io/badge/WEBSITE-skhavin.github.io-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://skhavin.github.io)
 [![OpenReview](https://img.shields.io/badge/OpenReview-S_Khavin-000000?style=for-the-badge&logo=openreview&logoColor=white)](https://openreview.net/profile?id=~S_Khavin1)
 [![Zenodo](https://img.shields.io/badge/Zenodo-Research_Archive-000000?style=for-the-badge&logo=zenodo&logoColor=white)](https://zenodo.org/records/22082191)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-S_Khavin-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/s-khavin33)
-[![Email](https://img.shields.io/badge/Email-academic.skhavin%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
+[![Email](https://img.shields.io/badge/Email-skhavin.res%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:skhavin.res@gmail.com)
 
 <br/><br/>
 
@@ -117,8 +119,11 @@ Next.js • Astro • React • TailwindCSS • Streamlit • LangChain • Lang
 [![Official Website](https://img.shields.io/badge/VISIT-OFFICIAL_WEBSITE-000000?style=for-the-badge&logo=astro&logoColor=white)](https://skhavin.github.io)
 [![LinkedIn](https://img.shields.io/badge/CONNECT-LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/s-khavin33)
 [![GitHub](https://img.shields.io/badge/FOLLOW-GITHUB-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/skhavin)
-[![Email](https://img.shields.io/badge/SECURE_EMAIL-ACADEMIC.SKHAVIN-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
+[![Email](https://img.shields.io/badge/SECURE_EMAIL-SKHAVIN.RES-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:skhavin.res@gmail.com)
 
-<sub>File No: `007-AI-NX` • Clearance: `Level 6` • Encryption: `SHA-256` • © S Khavin</sub>
+<br/>
+
+**S. KHAVIN**
+<sub>Agent Ident: `007` • Clearance: `Level 6` • Encryption: `SHA-256` • © S Khavin</sub>
 
 </div>
