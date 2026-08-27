@@ -1,17 +1,18 @@
 <div align="center">
 
-<!-- ================= PPEditorialNew VECTOR HEADER ================= -->
+<!-- ================= 007 GUNBARREL SPIRAL HEADER ================= -->
 <a href="https://skhavin.github.io" target="_blank" rel="noopener noreferrer">
-  <img src="./assets/dossier-header.svg" width="840" alt="S. Khavin — Classified Research Dossier" />
+  <img src="./assets/header-readme-github.png" width="840" alt="S. Khavin 007 — Classified Research Dossier" />
 </a>
 
 <br/>
 
-[![Website](https://img.shields.io/badge/WEBSITE-skhavin.github.io-52c41a?style=for-the-badge&logo=google-chrome&logoColor=white)](https://skhavin.github.io)
-[![OpenReview](https://img.shields.io/badge/OpenReview-S_Khavin-8C1515?style=for-the-badge&logo=openreview&logoColor=white)](https://openreview.net/profile?id=~S_Khavin1)
-[![Zenodo](https://img.shields.io/badge/Zenodo-Research_Archive-024dad?style=for-the-badge&logo=zenodo&logoColor=white)](https://zenodo.org/records/22082191)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-S_Khavin-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/s-khavin33)
-[![Email](https://img.shields.io/badge/Email-academic.skhavin%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
+<!-- ================= B&W STEALTH BADGES ================= -->
+[![Website](https://img.shields.io/badge/WEBSITE-skhavin.github.io-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://skhavin.github.io)
+[![OpenReview](https://img.shields.io/badge/OpenReview-S_Khavin-000000?style=for-the-badge&logo=openreview&logoColor=white)](https://openreview.net/profile?id=~S_Khavin1)
+[![Zenodo](https://img.shields.io/badge/Zenodo-Research_Archive-000000?style=for-the-badge&logo=zenodo&logoColor=white)](https://zenodo.org/records/22082191)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-S_Khavin-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/s-khavin33)
+[![Email](https://img.shields.io/badge/Email-academic.skhavin%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
 
 <br/><br/>
 
@@ -42,12 +43,12 @@ Independent researcher working at the intersection of **Mechanistic Interpretabi
 
 | # | Manuscript Title | Focus & Contribution | Venue & Artifacts |
 |---|---|---|---|
-| **I** | **[K Heads is All You Need](https://openreview.net/forum?id=eFLz0H38En)**<br><sub>*Task-Dependent Circuit Granularity and Zero-Training Routing in LLMs*</sub> | Proves retrieval in Qwen2.5 is sustained by a 6-head causal circuit. Builds a zero-training geometric router with 100% OOD precision on NVIDIA RULER. | [![OpenReview](https://img.shields.io/badge/OpenReview-Preprint-8C1515?style=flat-square)](https://openreview.net/forum?id=eFLz0H38En) [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/22082191) |
-| **II** | **[The Shape of Computation](https://zenodo.org/records/21738187)**<br><sub>*Language Models Build Universal, Conserved Task Geometries That Are Causally Inert*</sub> | Discovers trunk-and-branch geometry in residual streams across models via CKA-aligned DTW, proving representation maps are epiphenomenal byproducts. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738187) [![Field Note](https://img.shields.io/badge/Site-Field_Note-black?style=flat-square)](https://skhavin.github.io/blog/trunk-and-branch-theory-of-computation) |
-| **III** | **[Necessary But Not Sufficient](https://openreview.net/forum?id=fW2yC109Zq)**<br><sub>*Convergent Computational Geometry in the Transformer Residual Stream*</sub> | Disproves prompt-invariant head taxonomies; discovers conserved relational task geometries across Qwen, Llama, and Phi architectures. | [![OpenReview](https://img.shields.io/badge/OpenReview-Preprint-8C1515?style=flat-square)](https://openreview.net/forum?id=fW2yC109Zq) [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738188) |
-| **IV** | **[HeadGenome](https://zenodo.org/records/21738189)**<br><sub>*A Causal Atlas of 1,568 Attention Heads Across Four Architectures*</sub> | Exhaustive causal knockout mapping of 1,568 heads, uncovering extreme specialization in induction and prefix-tracking modules. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738189) |
-| **V** | **[O(1) Decode Step Attention](https://zenodo.org/records/21738190)**<br><sub>*Constant-Time Inference via Geometric KV Eviction*</sub> | Geometry-guided proactive KV-cache pruning mechanism that keeps decode step latency strictly $O(1)$ without quality degradation. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738190) |
-| **VI** | **[Trinetra](https://zenodo.org/records/21738191)**<br><sub>*Temporal Event Graph Architecture for Linear Video Ingest and Constant Query Time*</sub> | $O(N)$ video ingestion with $O(1)$ temporal query engine, replacing dense frame attention with topological event graphs. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-024dad?style=flat-square)](https://zenodo.org/records/21738191) |
+| **I** | **[K Heads is All You Need](https://openreview.net/forum?id=eFLz0H38En)**<br><sub>*Task-Dependent Circuit Granularity and Zero-Training Routing in LLMs*</sub> | Proves retrieval in Qwen2.5 is sustained by a 6-head causal circuit. Builds a zero-training geometric router with 100% OOD precision on NVIDIA RULER. | [![OpenReview](https://img.shields.io/badge/OpenReview-Preprint-000000?style=flat-square&logo=openreview&logoColor=white)](https://openreview.net/forum?id=eFLz0H38En) [![Zenodo](https://img.shields.io/badge/Zenodo-Record-000000?style=flat-square&logo=zenodo&logoColor=white)](https://zenodo.org/records/22082191) |
+| **II** | **[The Shape of Computation](https://zenodo.org/records/21738187)**<br><sub>*Language Models Build Universal, Conserved Task Geometries That Are Causally Inert*</sub> | Discovers trunk-and-branch geometry in residual streams across models via CKA-aligned DTW, proving representation maps are epiphenomenal byproducts. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-000000?style=flat-square&logo=zenodo&logoColor=white)](https://zenodo.org/records/21738187) [![Field Note](https://img.shields.io/badge/Site-Field_Note-000000?style=flat-square)](https://skhavin.github.io/blog/trunk-and-branch-theory-of-computation) |
+| **III** | **[Necessary But Not Sufficient](https://openreview.net/forum?id=fW2yC109Zq)**<br><sub>*Convergent Computational Geometry in the Transformer Residual Stream*</sub> | Disproves prompt-invariant head taxonomies; discovers conserved relational task geometries across Qwen, Llama, and Phi architectures. | [![OpenReview](https://img.shields.io/badge/OpenReview-Preprint-000000?style=flat-square&logo=openreview&logoColor=white)](https://openreview.net/forum?id=fW2yC109Zq) [![Zenodo](https://img.shields.io/badge/Zenodo-Record-000000?style=flat-square&logo=zenodo&logoColor=white)](https://zenodo.org/records/21738188) |
+| **IV** | **[HeadGenome](https://zenodo.org/records/21738189)**<br><sub>*A Causal Atlas of 1,568 Attention Heads Across Four Architectures*</sub> | Exhaustive causal knockout mapping of 1,568 heads, uncovering extreme specialization in induction and prefix-tracking modules. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-000000?style=flat-square&logo=zenodo&logoColor=white)](https://zenodo.org/records/21738189) |
+| **V** | **[O(1) Decode Step Attention](https://zenodo.org/records/21738190)**<br><sub>*Constant-Time Inference via Geometric KV Eviction*</sub> | Geometry-guided proactive KV-cache pruning mechanism that keeps decode step latency strictly $O(1)$ without quality degradation. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-000000?style=flat-square&logo=zenodo&logoColor=white)](https://zenodo.org/records/21738190) |
+| **VI** | **[Trinetra](https://zenodo.org/records/21738191)**<br><sub>*Temporal Event Graph Architecture for Linear Video Ingest and Constant Query Time*</sub> | $O(N)$ video ingestion with $O(1)$ temporal query engine, replacing dense frame attention with topological event graphs. | [![Zenodo](https://img.shields.io/badge/Zenodo-Record-000000?style=flat-square&logo=zenodo&logoColor=white)](https://zenodo.org/records/21738191) |
 
 ---
 
@@ -113,10 +114,10 @@ Next.js • Astro • React • TailwindCSS • Streamlit • LangChain • Lang
 
 ### 🌐 Secure Line & Coordinates
 
-[![Official Website](https://img.shields.io/badge/VISIT-OFFICIAL_WEBSITE-111111?style=for-the-badge&logo=astro&logoColor=52c41a)](https://skhavin.github.io)
-[![LinkedIn](https://img.shields.io/badge/CONNECT-LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/s-khavin33)
-[![GitHub](https://img.shields.io/badge/FOLLOW-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/skhavin)
-[![Email](https://img.shields.io/badge/SECURE_EMAIL-ACADEMIC.SKHAVIN-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
+[![Official Website](https://img.shields.io/badge/VISIT-OFFICIAL_WEBSITE-000000?style=for-the-badge&logo=astro&logoColor=white)](https://skhavin.github.io)
+[![LinkedIn](https://img.shields.io/badge/CONNECT-LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/s-khavin33)
+[![GitHub](https://img.shields.io/badge/FOLLOW-GITHUB-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/skhavin)
+[![Email](https://img.shields.io/badge/SECURE_EMAIL-ACADEMIC.SKHAVIN-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:academic.skhavin@gmail.com)
 
 <sub>File No: `007-AI-NX` • Clearance: `Level 6` • Encryption: `SHA-256` • © S Khavin</sub>
 
