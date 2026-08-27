@@ -35,7 +35,7 @@ jobs:
       - name: Configure Git Author
         run: |
           git config --global user.name "skhavin"
-          git config --global user.email "skhavin.res@gmail.com"
+          git config --global user.email "khavindev@gmail.com"
 
       - name: Evaluate Activity & Generate Varied Light-Green Commits
         run: |
@@ -43,7 +43,7 @@ jobs:
           echo "Evaluating commit density for UTC date: $TODAY"
           
           # Count author commits created today across all known author aliases
-          COMMITS_TODAY=$(git log --since="$TODAY 00:00:00" --author="skhavin\|skxdev007\|skhavin.res\|academic.skhavin" --oneline | wc -l)
+          COMMITS_TODAY=$(git log --since="$TODAY 00:00:00" --author="khavindev\|skhavin\|skxdev007\|skhavin.res\|academic.skhavin" --oneline | wc -l)
           echo "Recorded author commits today: $COMMITS_TODAY"
           
           FORCE="${{ github.event.inputs.force }}"
