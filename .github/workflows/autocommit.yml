@@ -4,17 +4,17 @@ on:
   schedule:
     # Runs at 20:00 UTC (01:30 AM IST) daily
     - cron: '0 20 * * *'
-    # Fallback check at 23:00 UTC
-    - cron: '0 23 * * *'
+    # Fallback check at 23:15 UTC (near midnight UTC)
+    - cron: '15 23 * * *'
   workflow_dispatch:
     inputs:
       force:
-        description: 'Force run even if commits exist today'
+        description: 'Force run regardless of today commit count'
         required: false
         default: 'false'
         type: boolean
       commit_count:
-        description: 'Override commit count (leave 0 for random 7-15)'
+        description: 'Override commit count (leave 0 for intelligent random target)'
         required: false
         default: 0
         type: number
@@ -34,44 +34,66 @@ jobs:
 
       - name: Configure Git Author
         run: |
-          git config --global user.name "skxdev007"
-          git config --global user.email "academic.skhavin@gmail.com"
+          git config --global user.name "skhavin"
+          git config --global user.email "skhavin.res@gmail.com"
 
-      - name: Check Activity & Generate Autonomous Commits
+      - name: Evaluate Activity & Generate Varied Light-Green Commits
         run: |
           TODAY=$(date -u +'%Y-%m-%d')
-          echo "Current UTC date: $TODAY"
+          echo "Evaluating commit density for UTC date: $TODAY"
           
-          # Count user's commits created today
-          COMMITS_TODAY=$(git log --since="$TODAY 00:00:00" --author="skxdev007\|skhavin\|academic.skhavin" --oneline | wc -l)
-          echo "Author commits recorded today: $COMMITS_TODAY"
+          # Count author commits created today across all known author aliases
+          COMMITS_TODAY=$(git log --since="$TODAY 00:00:00" --author="skhavin\|skxdev007\|skhavin.res\|academic.skhavin" --oneline | wc -l)
+          echo "Recorded author commits today: $COMMITS_TODAY"
           
           FORCE="${{ github.event.inputs.force }}"
           OVERRIDE_COUNT="${{ github.event.inputs.commit_count }}"
           
-          if [ "$COMMITS_TODAY" -gt 0 ] && [ "$FORCE" != "true" ]; then
-            echo "Activity detected today ($COMMITS_TODAY commits). No heartbeat required."
-            exit 0
-          fi
+          # Random target between 6 and 14 commits for varied, natural light-green squares
+          TARGET=$((6 + RANDOM % 9))
+          echo "Target commit threshold for today: $TARGET"
           
-          # Determine commit count (random between 7 and 15, or override)
           if [ -n "$OVERRIDE_COUNT" ] && [ "$OVERRIDE_COUNT" -gt 0 ]; then
-            TOTAL_COMMITS=$OVERRIDE_COUNT
+            TO_ADD=$OVERRIDE_COUNT
+            echo "Using manual override commit count: $TO_ADD"
+          elif [ "$COMMITS_TODAY" -ge "$TARGET" ] && [ "$FORCE" != "true" ]; then
+            echo "Activity already exceeds target ($COMMITS_TODAY >= $TARGET). Graph is already green."
+            exit 0
           else
-            TOTAL_COMMITS=$((7 + RANDOM % 9))
+            TO_ADD=$((TARGET - COMMITS_TODAY))
+            if [ "$TO_ADD" -lt 3 ]; then
+              TO_ADD=3
+            fi
+            echo "Commits today ($COMMITS_TODAY) below target ($TARGET). Generating $TO_ADD varied commits..."
           fi
           
-          echo "Generating $TOTAL_COMMITS autonomous activity commits..."
+          # Varied research commit message templates
+          MESSAGES=(
+            "chore(telemetry): neural circuit activation sync"
+            "chore(research): residual stream task geometry state ping"
+            "chore(activity): automated research log sync"
+            "chore(telemetry): causal head importance metric checkpoint"
+            "chore(interpretability): direct logit attribution stream sync"
+            "chore(activity): telemetry stream heartbeat keepalive"
+            "chore(experiments): sub-quadratic video event graph metric update"
+            "chore(telemetry): geometric KV eviction state verify"
+            "chore(research): cross-architecture head knockout telemetry ping"
+            "chore(activity): autonomous contribution grid keepalive"
+          )
+          NUM_TEMPLATES=${#MESSAGES[@]}
           
-          for i in $(seq 1 $TOTAL_COMMITS); do
+          for i in $(seq 1 $TO_ADD); do
             TIMESTAMP=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
             HEX=$(openssl rand -hex 4)
-            echo "[$TIMESTAMP] Telemetry heartbeat event #$i/$TOTAL_COMMITS [id:$HEX] -> Status: NOMINAL" >> .github/activity-feed.log
+            INDEX=$((RANDOM % NUM_TEMPLATES))
+            MSG_PREFIX="${MESSAGES[$INDEX]}"
+            
+            echo "[$TIMESTAMP] Event $i/$TO_ADD [id:$HEX] -> Status: NOMINAL | Density: OPTIMAL" >> .github/activity-feed.log
             
             git add .github/activity-feed.log
-            git commit -m "chore(activity): telemetry heartbeat sync [${i}/${TOTAL_COMMITS}] - $(date -u +'%H:%M:%S')"
+            git commit -m "$MSG_PREFIX [$i/$TO_ADD - id:$HEX]"
             sleep 1
           done
           
-          echo "Pushing commits to remote..."
+          echo "Pushing $TO_ADD autonomous commits to remote..."
           git push origin main
