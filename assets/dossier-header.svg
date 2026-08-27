@@ -1,46 +1,88 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 145" width="840" height="145">
   <defs>
-    <linearGradient id="hdrSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Chassis Gradient -->
+    <linearGradient id="hdrChassis" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#24272c" />
+      <stop offset="30%" stop-color="#141619" />
+      <stop offset="70%" stop-color="#0d0e11" />
+      <stop offset="100%" stop-color="#060709" />
+    </linearGradient>
+
+    <!-- Metallic Rim Highlight -->
+    <linearGradient id="hdrRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#555964" />
+      <stop offset="35%" stop-color="#22252a" />
+      <stop offset="70%" stop-color="#777c8a" />
+      <stop offset="100%" stop-color="#1c1e22" />
+    </linearGradient>
+
+    <!-- Silver Text Gradient -->
+    <linearGradient id="silverName" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" />
       <stop offset="25%" stop-color="#d4d4dc" />
       <stop offset="50%" stop-color="#ffffff" />
-      <stop offset="75%" stop-color="#8a909d" />
-      <stop offset="100%" stop-color="#e2e4e9" />
+      <stop offset="75%" stop-color="#9aa0ad" />
+      <stop offset="100%" stop-color="#e8eaf0" />
     </linearGradient>
 
-    <linearGradient id="hdrFade" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="rgba(255,255,255,0.45)" />
+    <!-- Subtitle Fade Gradient -->
+    <linearGradient id="subFade" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.65)" />
       <stop offset="100%" stop-color="#ffffff" />
     </linearGradient>
 
-    <filter id="hdrGreenGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <!-- Green Glow -->
+    <filter id="greenLedGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+
+    <radialGradient id="hdrGreenLed" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#a6f975" />
+      <stop offset="40%" stop-color="#52c41a" />
+      <stop offset="85%" stop-color="#135200" />
+      <stop offset="100%" stop-color="#092b00" />
+    </radialGradient>
+
+    <!-- Mini Screw -->
+    <g id="headerScrew">
+      <circle cx="0" cy="0" r="4.5" fill="#15171a" stroke="#33373e" stroke-width="0.8" />
+      <line x1="-2" y1="-2" x2="2" y2="2" stroke="#000" stroke-width="1" />
+      <line x1="-2" y1="2" x2="2" y2="-2" stroke="#000" stroke-width="1" />
+      <circle cx="-0.8" cy="-0.8" r="1.2" fill="rgba(255,255,255,0.2)" />
+    </g>
   </defs>
 
   <style>
-    .h-plate { font-family: -apple-system, 'SF Mono', 'Courier New', monospace; font-size: 10px; font-weight: 800; letter-spacing: 0.22em; fill: #52c41a; }
-    .h-name { font-family: 'GoldenEye', 'Georgia', 'Times New Roman', serif; font-size: 46px; font-weight: 700; letter-spacing: 0.22em; fill: url(#hdrSilver); }
-    .h-sub { font-family: 'PPEditorialNew', 'Georgia', 'Times New Roman', serif; font-style: italic; font-size: 24px; letter-spacing: 0.04em; fill: url(#hdrFade); }
-    .h-badge { font-family: 'BabesAndBond', -apple-system, sans-serif; font-size: 38px; font-weight: 900; fill: #52c41a; }
+    .h-plate { font-family: -apple-system, 'SF Mono', 'Courier New', monospace; font-size: 9.5px; font-weight: 800; letter-spacing: 0.22em; fill: #52c41a; }
+    .h-name { font-family: 'GoldenEye', 'Georgia', 'Times New Roman', serif; font-size: 44px; font-weight: 700; letter-spacing: 0.22em; fill: url(#silverName); filter: drop-shadow(0 2px 6px rgba(0,0,0,0.8)); }
+    .h-sub { font-family: 'PPEditorialNew', 'Georgia', 'Times New Roman', serif; font-style: italic; font-size: 22px; letter-spacing: 0.04em; fill: url(#subFade); }
+    .h-badge { font-family: -apple-system, sans-serif; font-size: 26px; font-weight: 900; fill: #52c41a; filter: url(#greenLedGlow); }
   </style>
 
-  <rect width="100%" height="100%" fill="transparent" />
+  <!-- Chassis Body -->
+  <rect x="10" y="6" width="820" height="133" rx="12" fill="url(#hdrRim)" stroke="#000" stroke-width="1.5" />
+  <rect x="12" y="8" width="816" height="129" rx="10" fill="url(#hdrChassis)" />
+
+  <!-- Screws -->
+  <use href="#headerScrew" x="24" y="20" />
+  <use href="#headerScrew" x="816" y="20" />
+  <use href="#headerScrew" x="24" y="125" />
+  <use href="#headerScrew" x="816" y="125" />
 
   <!-- Top Security Badge Line -->
-  <g transform="translate(420, 22)">
-    <rect x="-145" y="-12" width="290" height="22" rx="4" fill="#0b0e12" stroke="#1f242e" stroke-width="1" />
-    <circle cx="-124" cy="-1" r="3.5" fill="#52c41a" filter="url(#hdrGreenGlow)" />
-    <text x="0" y="3" text-anchor="middle" class="h-plate">LEVEL-6 RESEARCH CLEARANCE</text>
+  <g transform="translate(420, 24)">
+    <rect x="-145" y="-10" width="290" height="20" rx="3" fill="#08090c" stroke="#1d2026" stroke-width="0.8" />
+    <circle cx="-124" cy="0" r="3.5" fill="url(#hdrGreenLed)" filter="url(#greenLedGlow)" />
+    <text x="0" y="4" text-anchor="middle" class="h-plate">LEVEL-6 RESEARCH CLEARANCE</text>
   </g>
 
-  <!-- Title Name: S. KHAVIN -->
-  <text x="420" y="78" text-anchor="middle" class="h-name">S+KHAVIN</text>
+  <!-- Title Name: S+KHAVIN -->
+  <text x="420" y="74" text-anchor="middle" class="h-name">S+KHAVIN</text>
 
-  <!-- Subtitle: Classified Dossier -->
-  <text x="420" y="118" text-anchor="middle" class="h-sub">Classified Dossier — Mechanistic Interpretability <tspan class="h-badge">007</tspan></text>
+  <!-- Subtitle: Classified Dossier in PPEditorialNew Italic -->
+  <text x="420" y="112" text-anchor="middle" class="h-sub">Classified Dossier — Mechanistic Interpretability <tspan class="h-badge">007</tspan></text>
 </svg>
