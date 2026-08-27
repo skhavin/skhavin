@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 230" width="840" height="230">
+  <defs>
+    <linearGradient id="teleChassis" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#24272c" />
+      <stop offset="30%" stop-color="#141619" />
+      <stop offset="70%" stop-color="#0d0e11" />
+      <stop offset="100%" stop-color="#060709" />
+    </linearGradient>
+
+    <linearGradient id="teleRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#555964" />
+      <stop offset="35%" stop-color="#22252a" />
+      <stop offset="70%" stop-color="#777c8a" />
+      <stop offset="100%" stop-color="#1c1e22" />
+    </linearGradient>
+
+    <linearGradient id="gaugeBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a120e" />
+      <stop offset="100%" stop-color="#040705" />
+    </linearGradient>
+
+    <filter id="teleGreenGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <radialGradient id="tGreenLed" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#a6f975" />
+      <stop offset="40%" stop-color="#52c41a" />
+      <stop offset="85%" stop-color="#135200" />
+      <stop offset="100%" stop-color="#092b00" />
+    </radialGradient>
+
+    <g id="miniScrew">
+      <circle cx="0" cy="0" r="4.5" fill="#15171a" stroke="#33373e" stroke-width="0.8" />
+      <line x1="-2" y1="-2" x2="2" y2="2" stroke="#000" stroke-width="1" />
+      <line x1="-2" y1="2" x2="2" y2="-2" stroke="#000" stroke-width="1" />
+      <circle cx="-0.8" cy="-0.8" r="1.2" fill="rgba(255,255,255,0.2)" />
+    </g>
+  </defs>
+
+  <style>
+    .t-lbl { font-family: -apple-system, 'SF Mono', 'Roboto Mono', monospace; font-size: 9.5px; font-weight: 700; letter-spacing: 0.14em; fill: #6e7683; text-transform: uppercase; }
+    .t-val { font-family: -apple-system, 'SF Mono', 'Roboto Mono', monospace; font-size: 26px; font-weight: 800; fill: #73d13d; filter: url(#teleGreenGlow); letter-spacing: 0.05em; }
+    .t-sub { font-family: -apple-system, 'SF Mono', 'Roboto Mono', monospace; font-size: 10px; fill: #95de64; letter-spacing: 0.04em; }
+    .t-meta { font-family: -apple-system, 'SF Mono', 'Roboto Mono', monospace; font-size: 9px; fill: #48505c; letter-spacing: 0.08em; }
+    .t-title { font-family: -apple-system, 'SF Mono', 'Roboto Mono', monospace; font-size: 10.5px; font-weight: 800; letter-spacing: 0.2em; fill: #a0a6b2; }
+  </style>
+
+  <!-- Chassis Body -->
+  <rect x="10" y="8" width="820" height="214" rx="12" fill="url(#teleRim)" stroke="#000" stroke-width="1.5" />
+  <rect x="12" y="10" width="816" height="210" rx="10" fill="url(#teleChassis)" />
+
+  <!-- Screws -->
+  <use href="#miniScrew" x="24" y="22" />
+  <use href="#miniScrew" x="816" y="22" />
+  <use href="#miniScrew" x="24" y="208" />
+  <use href="#miniScrew" x="816" y="208" />
+
+  <!-- Top Header Strip -->
+  <path d="M 40 12 L 800 12 L 800 36 L 40 36 Z" fill="#101215" />
+  <line x1="40" y1="36" x2="800" y2="36" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  
+  <circle cx="56" cy="24" r="4" fill="url(#tGreenLed)" filter="url(#teleGreenGlow)" />
+  <text x="68" y="28" class="t-title">TELEMETRY DECK // AGENT 007 METRICS</text>
+  <text x="780" y="28" text-anchor="end" class="t-meta">SIGNAL: STABLE [256-BIT]</text>
+
+  <!-- POD 1: PREPRINTS -->
+  <g transform="translate(30, 48)">
+    <rect x="0" y="0" width="182" height="150" rx="6" fill="#000" stroke="#1d2026" stroke-width="1.2" />
+    <rect x="2" y="2" width="178" height="146" rx="5" fill="url(#gaugeBg)" />
+    <rect x="12" y="12" width="4" height="12" fill="#52c41a" />
+    <text x="22" y="22" class="t-lbl">PUBLICATIONS</text>
+    
+    <text x="91" y="76" text-anchor="middle" class="t-val">06</text>
+    <text x="91" y="98" text-anchor="middle" class="t-sub">FIRST-AUTHOR PREPRINTS</text>
+    
+    <line x1="16" y1="112" x2="166" y2="112" stroke="rgba(82,196,26,0.15)" stroke-width="1" />
+    <text x="91" y="130" text-anchor="middle" class="t-meta">OPENREVIEW • ZENODO</text>
+  </g>
+
+  <!-- POD 2: REPOSITORIES -->
+  <g transform="translate(226, 48)">
+    <rect x="0" y="0" width="182" height="150" rx="6" fill="#000" stroke="#1d2026" stroke-width="1.2" />
+    <rect x="2" y="2" width="178" height="146" rx="5" fill="url(#gaugeBg)" />
+    <rect x="12" y="12" width="4" height="12" fill="#13c2c2" />
+    <text x="22" y="22" class="t-lbl">REPOSITORIES</text>
+    
+    <text x="91" y="76" text-anchor="middle" class="t-val" fill="#13c2c2">30+</text>
+    <text x="91" y="98" text-anchor="middle" class="t-sub" fill="#87e8de">OPEN SOURCE CODEBASES</text>
+    
+    <line x1="16" y1="112" x2="166" y2="112" stroke="rgba(19,194,194,0.15)" stroke-width="1" />
+    <text x="91" y="130" text-anchor="middle" class="t-meta">GITHUB.COM/SKHAVIN</text>
+  </g>
+
+  <!-- POD 3: FELLOWSHIPS & SCHOLARSHIPS -->
+  <g transform="translate(422, 48)">
+    <rect x="0" y="0" width="182" height="150" rx="6" fill="#000" stroke="#1d2026" stroke-width="1.2" />
+    <rect x="2" y="2" width="178" height="146" rx="5" fill="url(#gaugeBg)" />
+    <rect x="12" y="12" width="4" height="12" fill="#faad14" />
+    <text x="22" y="22" class="t-lbl">SELECTIVITY</text>
+    
+    <text x="91" y="76" text-anchor="middle" class="t-val" fill="#faad14">TOP 5%</text>
+    <text x="91" y="98" text-anchor="middle" class="t-sub" fill="#ffe58f">OF 20,000 NATIONWIDE</text>
+    
+    <line x1="16" y1="112" x2="166" y2="112" stroke="rgba(250,173,20,0.15)" stroke-width="1" />
+    <text x="91" y="130" text-anchor="middle" class="t-meta">ALGOUNIVERSITY ATF</text>
+  </g>
+
+  <!-- POD 4: GLOBAL SCHOLAR -->
+  <g transform="translate(618, 48)">
+    <rect x="0" y="0" width="192" height="150" rx="6" fill="#000" stroke="#1d2026" stroke-width="1.2" />
+    <rect x="2" y="2" width="188" height="146" rx="5" fill="url(#gaugeBg)" />
+    <rect x="12" y="12" width="4" height="12" fill="#722ed1" />
+    <text x="22" y="22" class="t-lbl">GLOBAL SCHOLAR</text>
+    
+    <text x="96" y="76" text-anchor="middle" class="t-val" fill="#b37feb">1 / 500</text>
+    <text x="96" y="98" text-anchor="middle" class="t-sub" fill="#d3adf7">OUT OF 17,000 GLOBALLY</text>
+    
+    <line x1="16" y1="112" x2="176" y2="112" stroke="rgba(114,46,209,0.15)" stroke-width="1" />
+    <text x="96" y="130" text-anchor="middle" class="t-meta">UDACITY NEXTGEN BOOSTER</text>
+  </g>
+</svg>

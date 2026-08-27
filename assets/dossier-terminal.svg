@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 400" width="840" height="400">
+  <defs>
+    <!-- Milled Metal Outer Bezel Gradient -->
+    <linearGradient id="chassisGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2d32" />
+      <stop offset="30%" stop-color="#181a1d" />
+      <stop offset="70%" stop-color="#0f1114" />
+      <stop offset="100%" stop-color="#050608" />
+    </linearGradient>
+
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#666a73" />
+      <stop offset="25%" stop-color="#33363d" />
+      <stop offset="50%" stop-color="#888d99" />
+      <stop offset="75%" stop-color="#22252a" />
+      <stop offset="100%" stop-color="#444852" />
+    </linearGradient>
+
+    <radialGradient id="screenGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#06120b" />
+      <stop offset="65%" stop-color="#030805" />
+      <stop offset="100%" stop-color="#010302" />
+    </radialGradient>
+
+    <linearGradient id="glassReflect" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)" />
+      <stop offset="35%" stop-color="rgba(255,255,255,0.02)" />
+      <stop offset="60%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.03)" />
+    </linearGradient>
+
+    <radialGradient id="greenLed" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#a6f975" />
+      <stop offset="40%" stop-color="#52c41a" />
+      <stop offset="85%" stop-color="#135200" />
+      <stop offset="100%" stop-color="#092b00" />
+    </radialGradient>
+
+    <radialGradient id="amberLed" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffe58f" />
+      <stop offset="40%" stop-color="#faad14" />
+      <stop offset="85%" stop-color="#874d00" />
+      <stop offset="100%" stop-color="#472300" />
+    </radialGradient>
+
+    <radialGradient id="cyanLed" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#87e8de" />
+      <stop offset="40%" stop-color="#13c2c2" />
+      <stop offset="85%" stop-color="#00474f" />
+      <stop offset="100%" stop-color="#002329" />
+    </radialGradient>
+
+    <filter id="greenGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="textPhosphor" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="rgba(0, 0, 0, 0.45)" stroke-width="1.2" />
+    </pattern>
+
+    <g id="screw">
+      <circle cx="0" cy="0" r="5.5" fill="#15171a" stroke="#3a3e46" stroke-width="0.8" />
+      <circle cx="0" cy="0" r="4.2" fill="#25282e" />
+      <line x1="-2.8" y1="-2.8" x2="2.8" y2="2.8" stroke="#111316" stroke-width="1.2" />
+      <line x1="-2.8" y1="2.8" x2="2.8" y2="-2.8" stroke="#111316" stroke-width="1.2" />
+      <circle cx="-1" cy="-1" r="1.5" fill="rgba(255,255,255,0.2)" />
+    </g>
+  </defs>
+
+  <style>
+    .mono-hdr { font-family: 'PPEditorialNew', 'Georgia', serif; font-style: italic; font-size: 15px; letter-spacing: 0.08em; fill: #ffffff; }
+    .mono-txt { font-family: -apple-system, 'SF Mono', 'Roboto Mono', 'Courier New', monospace; font-size: 12.5px; fill: #d3f261; filter: url(#textPhosphor); letter-spacing: 0.03em; }
+    .mono-dim { font-family: -apple-system, 'SF Mono', 'Roboto Mono', 'Courier New', monospace; font-size: 12.5px; fill: #5b8c00; letter-spacing: 0.03em; }
+    .mono-val { font-family: -apple-system, 'SF Mono', 'Roboto Mono', 'Courier New', monospace; font-size: 12.5px; fill: #ffffff; font-weight: 600; letter-spacing: 0.04em; }
+    .mono-tag { font-family: -apple-system, 'SF Mono', 'Roboto Mono', 'Courier New', monospace; font-size: 10px; fill: #52c41a; font-weight: bold; letter-spacing: 0.1em; }
+    .plate-txt { font-family: 'PPEditorialNew', 'Georgia', serif; font-style: italic; font-size: 12.5px; letter-spacing: 0.12em; fill: #a6adb8; }
+    @keyframes cursorBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .cursor { animation: cursorBlink 1s infinite; fill: #73d13d; }
+  </style>
+
+  <!-- ================= CHASSIS ================= -->
+  <rect x="10" y="10" width="820" height="380" rx="12" fill="url(#rimGrad)" stroke="#111" stroke-width="1.5" />
+  <rect x="12" y="12" width="816" height="376" rx="10" fill="url(#chassisGrad)" />
+
+  <!-- Screws -->
+  <use href="#screw" x="26" y="24" />
+  <use href="#screw" x="814" y="24" />
+  <use href="#screw" x="26" y="376" />
+  <use href="#screw" x="814" y="376" />
+
+  <!-- Top Milled Header Bar -->
+  <path d="M 45 15 L 795 15 A 6 6 0 0 1 801 21 L 801 42 L 39 42 L 39 21 A 6 6 0 0 1 45 15 Z" fill="#131518" stroke="#000" stroke-width="1" />
+  <line x1="39" y1="42" x2="801" y2="42" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+
+  <!-- Status LED Cluster -->
+  <circle cx="62" cy="28" r="5" fill="#000" stroke="#444" stroke-width="0.8" />
+  <circle cx="62" cy="28" r="4.2" fill="url(#greenLed)" filter="url(#greenGlow)" />
+  <text x="74" y="32" class="mono-tag">IFF // MODE 5: ONLINE</text>
+
+  <circle cx="240" cy="28" r="4.5" fill="#000" stroke="#444" stroke-width="0.8" />
+  <circle cx="240" cy="28" r="3.8" fill="url(#amberLed)" />
+  <text x="250" y="32" class="mono-tag" fill="#faad14">CRYPTO: AES-256</text>
+
+  <circle cx="370" cy="28" r="4.5" fill="#000" stroke="#444" stroke-width="0.8" />
+  <circle cx="370" cy="28" r="3.8" fill="url(#cyanLed)" />
+  <text x="380" y="32" class="mono-tag" fill="#13c2c2">GRID: ACTIVE</text>
+
+  <!-- Nameplate -->
+  <rect x="520" y="20" width="260" height="17" rx="3" fill="#0b0d0f" stroke="#2a2e34" stroke-width="0.8" />
+  <text x="650" y="32" text-anchor="middle" class="plate-txt">Classified Research Dossier 007</text>
+
+  <!-- ================= CRT SCREEN ================= -->
+  <rect x="30" y="52" width="780" height="324" rx="8" fill="#000" stroke="#050608" stroke-width="3" />
+  <rect x="33" y="55" width="774" height="318" rx="6" fill="url(#screenGrad)" />
+  <rect x="33" y="55" width="774" height="318" rx="6" fill="url(#scanlines)" pointer-events="none" />
+  <path d="M 33 55 L 450 55 L 200 373 L 33 373 Z" fill="url(#glassReflect)" pointer-events="none" />
+
+  <!-- ================= PHOSPHOR TERMINAL CONTENT ================= -->
+  <text x="50" y="82" class="mono-hdr">┌── [ Agent Identification // Level-6 Research Clearance ] ───────────────────────┐</text>
+  
+  <text x="50" y="114" class="mono-txt">│ ✯ <tspan class="mono-dim">AGENT IDENT   :</tspan> <tspan class="mono-val">S. KHAVIN (007)</tspan></text>
+  <text x="770" y="114" class="mono-dim">│</text>
+
+  <text x="50" y="140" class="mono-txt">│ ✯ <tspan class="mono-dim">PRIMARY FOCUS :</tspan> <tspan class="mono-val">MECHANISTIC INTERPRETABILITY • COMPUTATIONAL GEOMETRY</tspan></text>
+  <text x="770" y="140" class="mono-dim">│</text>
+
+  <text x="50" y="166" class="mono-txt">│ ✯ <tspan class="mono-dim">INSTITUTION   :</tspan> <tspan class="mono-val">SATHYABAMA INSTITUTE OF SCIENCE &amp; TECH (2023 - 2027)</tspan></text>
+  <text x="770" y="166" class="mono-dim">│</text>
+
+  <text x="50" y="192" class="mono-txt">│ ✯ <tspan class="mono-dim">ACADEMICS     :</tspan> <tspan class="mono-val">DUAL DEGREES — SATHYABAMA &amp; UDACITY NEXTGEN SCHOLAR</tspan></text>
+  <text x="770" y="192" class="mono-dim">│</text>
+
+  <text x="50" y="218" class="mono-txt">│ ✯ <tspan class="mono-dim">MISSION SCOPE :</tspan> <tspan class="mono-val">CAUSAL CIRCUIT DISSECTION &amp; SUB-QUADRATIC INFERENCE</tspan></text>
+  <text x="770" y="218" class="mono-dim">│</text>
+
+  <text x="50" y="244" class="mono-txt">│ ✯ <tspan class="mono-dim">PUBLICATIONS  :</tspan> <tspan class="mono-val">6 FIRST-AUTHOR PREPRINTS [OPENREVIEW / ZENODO]</tspan></text>
+  <text x="770" y="244" class="mono-dim">│</text>
+
+  <text x="50" y="270" class="mono-txt">│ ✯ <tspan class="mono-dim">FELLOWSHIPS   :</tspan> <tspan class="mono-val">ALGOUNIVERSITY SWE CO-OP (YC) • ATF FELLOW (TOP 5% OF 20K)</tspan></text>
+  <text x="770" y="270" class="mono-dim">│</text>
+
+  <text x="50" y="296" class="mono-txt">│ ✯ <tspan class="mono-dim">DISPATCH HUB  :</tspan> <tspan class="mono-val" fill="#73d13d">HTTPS://SKHAVIN.GITHUB.IO</tspan> <tspan class="cursor">█</tspan></text>
+  <text x="770" y="296" class="mono-dim">│</text>
+
+  <text x="50" y="324" class="mono-hdr">└─────────────────────────────────────────────────────────────────────────────────┘</text>
+
+  <text x="52" y="352" class="mono-tag" fill="#8c939e">> SYS_STATUS: ALL SYSTEMS NOMINAL // CLICK TO ACCESS MAINFRAME</text>
+</svg>

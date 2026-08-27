@@ -2,7 +2,7 @@
 
 <!-- ================= PPEditorialNew VECTOR HEADER ================= -->
 <a href="https://skhavin.github.io" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/skhavin/skhavin.github.io/main/public/assets/dossier-header.svg" width="840" alt="S. Khavin — Classified Research Dossier" />
+  <img src="./assets/dossier-header.svg" width="840" alt="S. Khavin — Classified Research Dossier" />
 </a>
 
 <br/>
@@ -17,7 +17,7 @@
 
 <!-- ================= SKEUOMORPHIC COCKPIT TERMINAL SCREEN ================= -->
 <a href="https://skhavin.github.io" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/skhavin/skhavin.github.io/main/public/assets/dossier-terminal.svg" width="840" alt="S Khavin Classified Dossier Terminal Screen — Click to Open Mainframe" />
+  <img src="./assets/dossier-terminal.svg" width="840" alt="S Khavin Classified Dossier Terminal Screen — Click to Open Mainframe" />
 </a>
 
 <p align="center">
@@ -88,7 +88,7 @@ Next.js • Astro • React • TailwindCSS • Streamlit • LangChain • Lang
 
 <!-- Skeuomorphic Mission Telemetry Deck -->
 <a href="https://github.com/skhavin" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/skhavin/skhavin.github.io/main/public/assets/cockpit-telemetry.svg" width="840" alt="Skeuomorphic Mission Telemetry Deck" />
+  <img src="./assets/cockpit-telemetry.svg" width="840" alt="Skeuomorphic Mission Telemetry Deck" />
 </a>
 
 <br/><br/>
@@ -96,6 +96,13 @@ Next.js • Astro • React • TailwindCSS • Streamlit • LangChain • Lang
 <!-- Verified Working Streak Stats -->
 <a href="https://github.com/skhavin" target="_blank" rel="noopener noreferrer">
   <img src="https://streak-stats.demolab.com?user=skhavin&theme=tokyonight&hide_border=true&background=0a0a0c&ring=52c41a&fire=52c41a&currStreakLabel=52c41a&currStreakNum=ffffff&sideNums=ffffff&sideLabels=c9d1d9" alt="GitHub Streak Stats" />
+</a>
+
+<br/><br/>
+
+<!-- GitHub Profile Summary Card -->
+<a href="https://github.com/skhavin" target="_blank" rel="noopener noreferrer">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=skhavin&theme=tokyonight" alt="GitHub Profile Summary" />
 </a>
 
 </div>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 145" width="840" height="145">
+  <defs>
+    <linearGradient id="hdrSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#d4d4dc" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="75%" stop-color="#8a909d" />
+      <stop offset="100%" stop-color="#e2e4e9" />
+    </linearGradient>
+
+    <linearGradient id="hdrFade" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.45)" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+
+    <filter id="hdrGreenGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .h-plate { font-family: -apple-system, 'SF Mono', 'Courier New', monospace; font-size: 10px; font-weight: 800; letter-spacing: 0.22em; fill: #52c41a; }
+    .h-name { font-family: 'GoldenEye', 'Georgia', 'Times New Roman', serif; font-size: 46px; font-weight: 700; letter-spacing: 0.22em; fill: url(#hdrSilver); }
+    .h-sub { font-family: 'PPEditorialNew', 'Georgia', 'Times New Roman', serif; font-style: italic; font-size: 24px; letter-spacing: 0.04em; fill: url(#hdrFade); }
+    .h-badge { font-family: 'BabesAndBond', -apple-system, sans-serif; font-size: 38px; font-weight: 900; fill: #52c41a; }
+  </style>
+
+  <rect width="100%" height="100%" fill="transparent" />
+
+  <!-- Top Security Badge Line -->
+  <g transform="translate(420, 22)">
+    <rect x="-145" y="-12" width="290" height="22" rx="4" fill="#0b0e12" stroke="#1f242e" stroke-width="1" />
+    <circle cx="-124" cy="-1" r="3.5" fill="#52c41a" filter="url(#hdrGreenGlow)" />
+    <text x="0" y="3" text-anchor="middle" class="h-plate">LEVEL-6 RESEARCH CLEARANCE</text>
+  </g>
+
+  <!-- Title Name: S. KHAVIN -->
+  <text x="420" y="78" text-anchor="middle" class="h-name">S+KHAVIN</text>
+
+  <!-- Subtitle: Classified Dossier -->
+  <text x="420" y="118" text-anchor="middle" class="h-sub">Classified Dossier — Mechanistic Interpretability <tspan class="h-badge">007</tspan></text>
+</svg>
